@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--Internet Explorer meta
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!--mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <!-- my css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome -->
+    <link href="static/fontawesome/fontawesome-all.min.css" rel="stylesheet">
+
+
+    <title>GrPro</title>
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-2">
+                
+                <img class="img-fluid" src="FB_IMG_1431676008704.jpg"/>
+        
+            </div>
+            <div class="col-lg-9">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            </div>  
+             
+        </div>
+        
+    </div> -->
+    
+    <!--start navbar-->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Cloud<span>ak</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" style="background-color:#1488c6;">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#company">Company</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#platforms">Platforms</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#price">Price</a>
+                </li>
+                
+                <!-- dropmenu -->
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li> -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li> -->
+                </ul>
+                
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button" style="
+                margin-left: 10px;
+            " data-toggle="modal" data-target="#modalLRForm">Sign In</button>
+            </div>
+        </nav>
+    <!--end navbar-->
+    <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/cloud.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>IaaS</h3>
+                        <p class="text-center">Clean installation of different linux distros.
+                        </p>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/cloud-servers.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>PaaS</h3>
+                        <p class="text-center">Ready-to-use platforms such as web servers and databases configured to save time.
+                       </p>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Cloud-Computing.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Networks</h3>
+                        <p class="text-center">Easily provision private networks and connect them to your machines with a few clicks.
+                            </p>
+                        </div>         
+                    </div>
+                    <div class="carousel-item">
+                            <img class="d-block w-100" src="img/routing.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Routing</h3>
+                                <p class="text-center">Route between your networks in a simple way.
+                               </p>
+                                </div>
+                    </div>    
+            </div>
+            <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a> -->
+        </div>
+    <!-- end carousel-->
+    <!-- start abot section -->
+        <section class="about text-center" id="about">
+            <div class="container">
+                    <h2 class="hidden-xs">Cloud<span>ak</span></h2>
+                    <p class="intro">Public cloud platform providing SDDC to enterprises and users.</p>
+                    <i class="fas fa-server"></i>
+                    <i class="fas fa-cloud" style="color:#1488c6"></i>
+                    <i class="fas fa-user"></i>
+
+                </div>
+        </section>
+        <!-- end abot section -->
+        <!-- start services -->
+        <section class="services text-center" id="services">
+            <div class="container">
+                <h1>Our Services</h1>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <h4>
+                                <i class="fas fa-microchip"></i>
+                                 IaaS
+                        </h4>    
+                        <p>Clean installation of different linux distros.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                            <h4>
+                                    <i class="fas fa-database"></i>
+                                     PaaS
+                            </h4>    
+                            <p>Ready-to-use platforms such as web servers and databases configured to save time.
+
+                            </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                            <h4>
+                                    <i class="fas fa-globe"></i>
+                                     Networks
+                            </h4>    
+                            <p>Easily provision private networks and connect them to your machines with a few clicks.
+
+                            </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                            <h4>
+                                    <i class="fab fa-connectdevelop" style="    color: #1488c6"></i>
+                                     Routing
+                            </h4>    
+                            <p>Route between your networks in a simple way.
+
+                            </p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!--end services -->
+       <!-- start company section -->
+       <section class="company text-center" id="company">
+            <div class="container">
+                <h1>Why Cloudak Company?</h1>
+                <p>
+                        Our best-in-class infrastructure is engineered to handle the most data-intensive work on the planet, giving you the flexibility to scale quickly, while still maintaining admin control. GCP frees you from the overhead of managing infrastructure, provisioning servers, and configuring networks, so you can focus on what’s really important — your business. And our customer-friendly pricing means you only pay for what you use, providing better overall value.
+                </p>
+            </div>
+
+       </section>
+       <!-- end company section -->
+       <!-- start platform section -->
+       <section class="platform text-center" id="platforms">
+            <div class="container">
+                <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                                <div class="platf">
+                                    <img class="img-fluid center-block" src="img/platforms/1.png" alt="postgresql">
+                                    <!-- <h3>Postgresql</h3> -->
+                                        </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="platf">
+                                <img class="img-fluid center-block"  src="img/platforms/2.png" alt="Apache"></div>
+                                <!-- <h3 style="margin-top:30px;">Apache</h3> -->
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="platf">
+                                <img class="img-fluid center-block" src="img/platforms/3.png" alt="rabbitmq"></div>
+                                <!-- <h3 style="margin-top:30px;">Rabbitmq</h3> -->
+                        </div>  
+                    
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- end platform section -->
+ <!-- Start distros section  -->
+ <section class="distros text-center">
+        <div class="os">
+            <div class="container">
+                    <h1>We Support Distros</h1>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="distro">
+                                <img class="rounded-circle" src="img/CentOS_Icon.png" alt="CentOS">
+                                <h3>CentOS</h3>
+                                 </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="distro">
+                                <img class="rounded-circle" src="img/Fedora_logo.png" alt="Fedora"></div>
+                                <h3 style="margin-top:30px;">Fedora</h3>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="distro">
+                                <img class="rounded-circle" src="img/ubuntu-logo32 .png" alt="Ubuntu"></div>
+                                <h3 style="margin-top:30px;">Ubuntu</h3>
+                        </div>        
+
+                    </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end distros section  -->
+    <!-- start price table -->
+    <section class="price text-center" id="price">
+        <div class="container">
+            <h1>Prices</h1>
+            <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                            <div class="price_box">
+                            <h2>Plan#1</h2>
+                            <p>40$</p>
+                            <ul class="list-unstyled">
+                                <li>Duration: 3 months</li>
+                                <li>Private Networks:2</li>
+                                <li>Space:30GB</li>
+                                <li>DataBases:5</li>
+                                <li>Emails:15</li>
+                                <li>Routers:1</li>
+                            </ul>
+                            <a href="#" class="btn btn-info">Order Now</a>
+                            </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                            <div class="price_box">
+                                <h2>Plan#2</h2>
+                                <p>70$</p>
+                            <ul class="list-unstyled">
+                                <li>Duration: 6 months</li>
+                                <li>Private Networks:3</li>
+                                <li>Space:60GB</li>
+                                <li>DataBases:10</li>
+                                <li>Emails:30</li>
+                                <li>Routers:2</li>
+                            </ul>
+                            <a href="#" class="btn btn-info">Order Now</a>
+                            </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                            <div class="price_box">
+                                <h2>Plan#3</h2>
+                                <p>100$</p>
+                            <ul class="list-unstyled">
+                                <li>Duration: 9 months</li>
+                                <li>Private Networks:4</li>
+                                <li>Space:100GB</li>
+                                <li>DataBases:15</li>
+                                <li>Emails:60</li>
+                                <li>Routers:3</li>
+                            </ul>
+                            <a href="#" class="btn btn-info">Order Now</a>
+                            </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                            <div class="price_box">
+                                <h2>Plan#4</h2>
+                                <p>200$</p>
+                            <ul class="list-unstyled">
+                                <li>Duration: 12 months</li>
+                                <li>Private Networks:7</li>
+                                <li>Space:250GB</li>
+                                <li>DataBases:25</li>
+                                <li>Emails:150</li>
+                                <li>Routers:6</li>
+                            </ul>
+                            <a href="#" class="btn btn-info">Order Now</a>
+                            </div>
+                    </div>    
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end price table -->
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>Sitemap</h3>
+                    <ul class="list-unstyled two-columns">
+                        <li> <a href="#">Home</a></li>
+                        <li><a href="#company">Company</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#platforms">Platforms</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#price">Price</a></li>
+                    </ul>
+                    <ul class="list-unstyled social-list">
+                        <li><img src="img/icons/f.png" alt="facebook"></li>
+                        <li><img src="img/icons/e.png" alt="Email"></li>
+                        <li><img src="img/icons/git.png" alt="linked"></li>
+                        <li><img src="img/icons/yo.png" alt="yputube"></li>
+                        <li><img src="img/icons/t.png" alt="twitter"></li>
+                        <li><img src="img/icons/gp.png" alt="Google+"></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+
+                </div>
+                <div class="col-lg-4">
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!--Modal: Login / Register Form-->
+        <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog cascading-modal" role="document">
+                <!--Content-->
+                <div class="modal-content">
+        
+                    <!--Modal cascading tabs-->
+                    <div class="modal-c-tabs">
+        
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs tabs-2 light-blue darken-3" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fa fa-user mr-1"></i> Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fa fa-user-plus mr-1"></i> Register</a>
+                            </li>
+                        </ul>
+        
+                        <!-- Tab panels -->
+                        <div class="tab-content">
+                            <!--Panel 7-->
+                            <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+        
+                                <!--Body-->
+                                <div class="modal-body mb-1">
+                                    <div class="md-form form-sm">
+                                        <i class="fa fa-envelope prefix"></i>
+                                        <input type="email" id="form22" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="form22">Your email</label>
+                                    </div>
+        
+                                    <div class="md-form form-sm">
+                                        <i class="fa fa-lock prefix"></i>
+                                        <input type="password" id="form23" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="form23">Your password</label>
+                                    </div>
+                                    <div class="text-center mt-2">
+                                        <button class="btn btn-info" id="logIn">Log in <i class="fa fa-sign-in ml-1"></i></button>
+                                    </div>
+                                </div>
+                                <!--Footer-->
+                                <div class="modal-footer">
+                                    <div class="options text-center text-md-right mt-1">
+                                        <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+                                        <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                                </div>
+        
+                            </div>
+                            <!--/.Panel 7-->
+        
+                            <!--Panel 8-->
+                            <div class="tab-pane fade" id="panel8" role="tabpanel">
+        
+                                <!--Body-->
+                                <div class="modal-body">
+                                    <div class="md-form form-sm">
+                                        <i class="fa fa-envelope prefix"></i>
+                                        <input type="email" id="form24" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="form24">Your email</label>
+                                    </div>
+        
+                                    <div class="md-form form-sm">
+                                        <i class="fa fa-lock prefix"></i>
+                                        <input type="password" id="form25" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="form25">Your password</label>
+                                    </div>
+        
+                                    <div class="md-form form-sm">
+                                        <i class="fa fa-lock prefix"></i>
+                                        <input type="password" id="form26" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="form26">Repeat password</label>
+                                    </div>
+        
+                                    <div class="text-center form-sm mt-2">
+                                        <button class="btn btn-info" id="signUp">Sign up <i class="fa fa-sign-in ml-1"></i></button>
+                                    </div>
+        
+                                </div>
+                                <!--Footer-->
+                                <div class="modal-footer">
+                                    <div class="options text-right">
+                                        <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            <!--/.Panel 8-->
+                        </div>
+        
+                    </div>
+                </div>
+                <!--/.Content-->
+            </div>
+        </div>
+    <!--Modal: Login / Register Form-->
+    
+              
+                                    
+                                
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+</body>
+
+</html>
